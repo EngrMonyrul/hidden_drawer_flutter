@@ -1,5 +1,4 @@
-import 'package:drawer_example/pages/alt_page.dart';
-import 'package:drawer_example/pages/main_page.dart';
+import 'package:drawer_example/confettiExample/pages/confetti_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,7 +11,7 @@ void main() {
           backgroundColor: Colors.orange,
         ),
       ),
-      home: const AltPage(),
+      home: const ConfettiPage(),
     ),
   );
 }

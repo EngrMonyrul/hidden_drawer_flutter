@@ -1,12 +1,13 @@
-import 'package:drawer_example/pages/page_five.dart';
-import 'package:drawer_example/pages/page_four.dart';
-import 'package:drawer_example/pages/page_one.dart';
-import 'package:drawer_example/pages/page_three.dart';
-import 'package:drawer_example/pages/page_two.dart';
-import 'package:drawer_example/widgets/drawer_item.dart';
+import 'package:drawer_example/hiddenDrawerExmple/pages/page_five.dart';
+import 'package:drawer_example/hiddenDrawerExmple/pages/page_four.dart';
+import 'package:drawer_example/hiddenDrawerExmple/pages/page_one.dart';
+import 'package:drawer_example/hiddenDrawerExmple/pages/page_three.dart';
+import 'package:drawer_example/hiddenDrawerExmple/pages/page_two.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:hidden_drawer_menu/hidden_drawer_menu.dart';
+
+import '../widgets/drawer_item.dart';
 
 class AltPage extends StatelessWidget {
   const AltPage({super.key});
